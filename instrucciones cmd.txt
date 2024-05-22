@@ -1,0 +1,13 @@
+**crear app con express
+npx express-generator myExpressApp --view ejs
+
+**instalar paquetes npm en el proyecto
+cd myExpressApp 
+npm install
+
+**Inicie el servidor de desarrollo con información de depuración.
+set DEBUG=myexpressapp:*
+npm start
+
+SET DEBUG=webaplication:*
+npm start
